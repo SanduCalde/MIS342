@@ -201,7 +201,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a1"><strong>Your answer:</strong></label>
                 <input name="a1" id="a1" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="ServiceOrderID uniquely identifies each service order. CustomerName can repeat because one customer may have several orders, and different customers may share the same name. Names can also change or be entered inconsistently. Using ServiceOrderID keeps each order distinct and allows LuckyTire to locate and update the correct record." type="text"><br />
             </p>
 
             <p>
@@ -210,7 +210,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a2"><strong>Your answer:</strong></label>
                 <input name="a2" id="a2" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="I used the Currency data type for AmountPaid because it stores the monetary amount paid for each service order. It supports accurate financial calculations and displays values as currency, making payments easier to read and compare." type="text"><br />
             </p>
 
             <h2><strong> Screenshot A — Table Design</strong></h2>
@@ -245,7 +245,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a3"><strong>Your answer:</strong></label>
                 <input name="a3" id="a3" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="The query answers, “Which LuckyTire service orders had payments of at least $900?” It returned four records, all with AmountPaid values of $900 or more. After I added a record below $900 through the form, that record was excluded and the query still returned four records, confirming that the criterion worked correctly." type="text"><br />
             </p>
 
             <p>
@@ -254,7 +254,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a4"><strong>Your answer:</strong></label>
                 <input name="a4" id="a4" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="After saving the new record through frmServiceOrders, I opened the ServiceOrders table and located its unique ServiceOrderID. I checked that the field values matched my form entry and that the table’s record count increased from 12 to 13. This confirmed that the form saved the record directly in the underlying table." type="text"><br />
             </p>
 
             <h2><strong> Screenshot B — Query Result</strong> </h2>
@@ -289,7 +289,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a5"><strong>Your answer:</strong></label>
                 <input name="a5" id="a5" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="rptHighValueServiceOrders displays only orders with payments of at least $900 in a clear, printable layout, sorted from highest to lowest amount. The raw table contains every service order, including lower-value work. The report helps a manager quickly identify and compare high-value orders without manually filtering the full table." type="text"><br />
             </p>
 
             <p>
@@ -298,7 +298,7 @@ PgP 8/16/2026 MIS342 Summative01 redesign
                 <br />
                 <label for="a6"><strong>Your answer:</strong></label>
                 <input name="a6" id="a6" size="500" maxlength="500" class="form-control"
-                    value="[Replace this text with your answer]" type="text"><br />
+                    value="A backup creates a separate database copy that LuckyTire can restore if the working file is lost or damaged. Compact and Repair reduces unused file space and can fix some database problems. LuckyTire benefits from both because backups protect against data loss, while Compact and Repair helps maintain the working database. Maintenance does not replace a backup." type="text"><br />
             </p>
 
             <h2><strong> Screenshot C — Management Report</strong> </h2>
